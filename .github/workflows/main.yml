@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get current time
-        uses: josStorer/get-current-time@master
+        uses: ZeroMission/get-current-time@master
         id: current-time
         with:
           format: YYYYMMDD-HH
